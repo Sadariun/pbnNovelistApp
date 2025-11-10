@@ -119,7 +119,7 @@ Error generating stack: `+o.message+`
           <label for="random-count" class="random-label">Количество секций:</label>
           <input type="number" id="random-count" min="9" value="9" class="random-input">
           <button id="random-site-btn" class="btn btn-primary random-button" aria-label="Случайный сайт">
-            <img src="/assets/img/shuffle.svg" alt="Random website generator">
+            <img src="./assets/img/shuffle.svg" alt="Random website generator">
           </button>
         </div>
       </div>
@@ -194,7 +194,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
               <option value="" disabled selected hidden>Выбрать версию</option>
               ${F.versions.map(se=>`<option value="${se.name}">${se.displayName||se.name}</option>`).join("")}
             </select>
-            <button type="button" data-remove-section="${F.name}" class="section-remove-btn" aria-label="Убрать секцию"><img src="/assets/img/cross.svg" alt="Удалить"></button>
+            <button type="button" data-remove-section="${F.name}" class="section-remove-btn" aria-label="Убрать секцию"><img src="./assets/img/cross.svg" alt="Удалить"></button>
           </div>`:ae=`<div class="section-actions"><button data-section="${F.name}" class="btn btn-secondary section-toggle-btn full-width">Добавить</button></div>`;const ee=`<div class="section-card__header">
           <h3>${ce(F.name)}</h3>
           ${F.required?'<span class="required-pill">Обязательный</span>':""}
