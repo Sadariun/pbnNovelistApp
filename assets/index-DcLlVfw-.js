@@ -124,7 +124,7 @@ Error generating stack: `+o.message+`
             <input type="range" id="random-count" min="9" value="9" step="1" class="random-slider">
           </div>
           <button id="random-site-btn" class="btn btn-primary random-button" aria-label="Случайный сайт">
-            <img src="/assets/img/shuffle.svg" alt="Random website generator">
+            <img src="./assets/img/shuffle.svg" alt="Random website generator">
           </button>
         </div>
       </div>
@@ -199,7 +199,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
               <option value="" disabled selected hidden>Выбрать версию</option>
               ${D.versions.map(oe=>`<option value="${oe.name}">${oe.displayName||oe.name}</option>`).join("")}
             </select>
-            <button type="button" data-remove-section="${D.name}" class="section-remove-btn" aria-label="Убрать секцию"><img src="/assets/img/cross.svg" alt="Удалить"></button>
+            <button type="button" data-remove-section="${D.name}" class="section-remove-btn" aria-label="Убрать секцию"><img src="./assets/img/cross.svg" alt="Удалить"></button>
           </div>`:q=`<div class="section-actions"><button data-section="${D.name}" class="btn btn-secondary section-toggle-btn full-width">Добавить</button></div>`;const te=`<div class="section-card__header">
           <h3>${me(D.name)}</h3>
           ${D.required?'<span class="required-pill">Обязательный</span>':""}
