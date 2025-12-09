@@ -482,7 +482,7 @@ ${he.content}`).join(`
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.">
-    <title>${x}</title>
+    <title>${x} || Lorem ipsum dolor sit amet</title>
     <link rel="canonical" href="https://${j}" />
     <link rel="icon" type="image/x-icon" href="./assets/logo.svg">
 ${Oe||""}
