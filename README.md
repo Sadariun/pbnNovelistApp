@@ -1,2 +1,1 @@
-Приложение находится тут:
-[Sadariun.github.io/](https://sadariun.github.io/pbnNovelistApp/)
+Приложение находится [тут](https://sadariun.github.io/pbnNovelistApp/)
